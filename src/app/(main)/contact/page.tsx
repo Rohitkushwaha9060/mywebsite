@@ -43,17 +43,15 @@ export default function Home() {
   return (
     <>
       <section className="w-full max-w-7xl mt-12 mx-auto font-roboto">
-        <h1 className="text-center font-roboto_slab font-semibold text-2xl md:text-3xl">
-          Contact Page
-        </h1>
-
         <div className="max-w-2xl mx-auto mt-3">
           <form
             className="space-y-6 shadow-md rounded-lg bg-gray-900 p-6 mx-4"
             onSubmit={handleSubmit(onSubmit)}
           >
             <div className="text-center">
-              <h1 className="text-xl font-semibold">Contact Details</h1>
+              <h1 className="text-xl font-semibold font-roboto_slab">
+                Contact Details
+              </h1>
               <p className="text-sm font-medium text-gray-400 ">
                 Fill in the details below to get in touch with me.
               </p>

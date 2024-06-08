@@ -41,6 +41,7 @@ export function Navbar() {
         {/* mobile nav view */}
 
         <nav
+          onClick={() => setIsOpen(!isOpen)}
           className={`${
             isOpen ? "block" : "hidden"
           }  md:hidden z-50 absolute top-[60px] right-0  w-full bg-gray-950 text-white px-5 min-h-52 duration-100 ease-in-out`}
@@ -53,7 +54,7 @@ export function Navbar() {
           </div>
         </nav>
 
-        <div className="flex items-center font-roboto_slab">
+        <div className="flex items-center font-roboto_slab animate-bounce_two">
           <Link
             href="/"
             className="bg-purple-700 py-1 px-4 rounded-lg transition duration-300 transform hover:scale-105 hover:bg-purple-900"
