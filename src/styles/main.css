@@ -26,6 +26,16 @@
   }
 }
 
+@keyframes bounce_two {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10%);
+  }
+}
+
 @keyframes fade {
   0%,
   100% {
@@ -82,6 +92,10 @@
 
 .animate-bounce {
   animation: bounce 3s infinite;
+}
+
+.animate-bounce_two {
+  animation: bounce_two 3s infinite;
 }
 
 .animate-fade {

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "@/styles/main.css";
+import { Toaster } from "react-hot-toast";
 
 export const metadata: Metadata = {
   title: "Rohit Kushwaha",
@@ -13,7 +14,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressContentEditableWarning>
-      <body className="bg-gray-950 w-full h-screen text-white">{children}</body>
+      <body className="bg-gray-950 w-full h-screen text-white">
+        {children}
+        <Toaster />
+      </body>
     </html>
   );
 }
