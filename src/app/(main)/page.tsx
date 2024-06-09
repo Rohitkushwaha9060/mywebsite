@@ -32,7 +32,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="w-full max-w-7xl mt-12 mx-auto">
+      <section className="w-full max-w-7xl mt-12 mx-auto ">
         <h1 className="text-center font-roboto_slab font-semibold text-2xl md:text-3xl">
           About Me
         </h1>

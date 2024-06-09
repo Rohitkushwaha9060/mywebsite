@@ -1,4 +1,4 @@
-import { Navbar } from "@/components";
+import { Footer, Navbar } from "@/components";
 
 export default function MainLayout({
   children,
@@ -6,9 +6,10 @@ export default function MainLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <main>
+    <>
       <Navbar />
-      {children}
-    </main>
+      <main className="h-full w-full">{children}</main>
+      <Footer />
+    </>
   );
 }
