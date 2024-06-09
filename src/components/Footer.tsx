@@ -5,7 +5,7 @@ import { BsTwitterX } from "react-icons/bs";
 
 export function Footer() {
   return (
-    <footer className="w-full bg-gray-950 text-white mt-20 text-center font-semibold text-lg py-3 max-w-7xl mx-auto ">
+    <footer className=" bg-gray-950 text-white mt-20 text-center font-semibold text-lg py-3 max-w-7xl mx-auto my-auto">
       <hr className="w-full h-px bg-gray-900" />
       <h3 className="my-3">Connect with me</h3>
       <div className="flex flex-warp gap-8  items-center justify-center max-w-lg mx-auto px-3">

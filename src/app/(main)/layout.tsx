@@ -6,10 +6,10 @@ export default function MainLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <>
+    <div>
       <Navbar />
-      <main className="h-full w-full">{children}</main>
+      <main className="h-auto w-full">{children}</main>
       <Footer />
-    </>
+    </div>
   );
 }

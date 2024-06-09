@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "@hookform/resolvers": "^3.6.0",
-    "axios": "^1.7.2",
     "mongoose": "^8.4.1",
     "next": "14.2.3",
     "nodemailer": "^6.9.13",

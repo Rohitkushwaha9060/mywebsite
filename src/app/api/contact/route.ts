@@ -21,11 +21,11 @@ export async function POST(req: Request) {
     await contact.save();
 
     await sendEmail({
-      toEmail: email,
-      subject: "Join our newsletter",
+      toEmail: "rajdilkhush0987654321@gmail.com",
+      subject: "New Contact Added",
       emailBody: `
       <p>
-        Thanks for subscribing to our newsletter! We will be in touch soon.
+        ${name} has added you to their contact list.
       </p>
         `,
     });

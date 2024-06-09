@@ -16,6 +16,16 @@
   }
 }
 
+@keyframes spin-full {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(360deg);
+  }
+}
+
 @keyframes bounce {
   0%,
   100% {
@@ -89,13 +99,16 @@
 .animate-spin {
   animation: spin 3s linear infinite;
 }
+.animate-spin-full {
+  animation: spin-full 3s linear infinite;
+}
 
 .animate-bounce {
   animation: bounce 3s infinite;
 }
 
 .animate-bounce_two {
-  animation: bounce_two 3s infinite;
+  animation: bounce_two 4s infinite;
 }
 
 .animate-fade {

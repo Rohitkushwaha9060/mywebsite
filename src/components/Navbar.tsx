@@ -25,6 +25,9 @@ export function Navbar() {
           </Link>
         </div>
         <nav className="hidden md:flex md:space-x-10 font-roboto font-medium">
+          <Link href="/" className="hover-animate-wiggle">
+            Home
+          </Link>
           <Link className="hover-animate-wiggle" href="/projects">
             Projects
           </Link>
@@ -38,8 +41,8 @@ export function Navbar() {
             Contact
           </Link>
         </nav>
-        {/* mobile nav view */}
 
+        {/* mobile nav view */}
         <nav
           onClick={() => setIsOpen(!isOpen)}
           className={`${
@@ -47,6 +50,7 @@ export function Navbar() {
           }  md:hidden z-50 absolute top-[60px] right-0  w-full bg-gray-950 text-white px-5 min-h-52 duration-100 ease-in-out`}
         >
           <div className="flex flex-col py-4 items-center font-roboto font-medium gap-6">
+            <Link href="/">Home</Link>
             <Link href="/projects">Projects</Link>
             <Link href="/blogs">Blogs</Link>
             <Link href="/about">About</Link>
