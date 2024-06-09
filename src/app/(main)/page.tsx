@@ -170,8 +170,8 @@ export default function Home() {
               70%
             </span>
           </div>
-          {/* raxios */}
-          <div className="group relative flex flex-col gap-3 p-3 bg-white rounded-xl items-center text-slate-500 w-32 h-32">
+          {/* axios */}
+          <div className="group relative flex flex-col gap-3 p-3 bg-white rounded-xl items-center text-blue-500 w-32 h-32">
             <SiAxios size={65} className="animate-spin-full" />
             <span className="font-semibold font-roboto_slab">AXIOS</span>
             <div className="w-full bg-slate-500 rounded-full h-4">
@@ -255,10 +255,7 @@ export default function Home() {
             </span>
           </div>
           {/* socket io */}
-          <div
-            className="flex flex-col gap-3 p-3 bg-white rounded-xl items-center text-gray-600 w-32 h-32 tooltip relative group"
-            data-tip="hello"
-          >
+          <div className="flex flex-col gap-3 p-3 bg-white rounded-xl items-center text-gray-600 w-32 h-32  relative group">
             <TbBrandSocketIo size={65} className="animate-spin-full" />
             <span className="font-semibold font-roboto_slab">SOCKET IO</span>
             <div className="w-full bg-slate-500 rounded-full h-4">
