@@ -213,7 +213,7 @@ export default function Home() {
             </span>
           </div>
           {/* Zustand */}
-          <div className="group relative flex flex-col gap-3 p-3 bg-white rounded-xl items-center text-blue-600 w-32 h-32">
+          <div className="group relative flex flex-col gap-3 p-3 bg-white rounded-xl items-center text-slate-600 w-32 h-32">
             <GiPolarBear size={65} className="animate-spin" />
             <span className="font-semibold font-roboto_slab">ZUSTAND</span>
             <div className="w-full bg-slate-500 rounded-full h-4">
@@ -299,7 +299,7 @@ export default function Home() {
           {/* Prisma */}
           <div className="flex flex-col gap-3 p-3 bg-white rounded-xl items-center text-slate-800 w-32 h-32  relative group">
             <TbBrandPrisma size={65} className="animate-spin" />
-            <span className="font-semibold font-roboto_slab">MONGOOSE</span>
+            <span className="font-semibold font-roboto_slab">PRISMA</span>
             <div className="w-full bg-slate-500 rounded-full h-4">
               <div
                 className="bg-green-600 h-4 rounded-full progress-bar "
