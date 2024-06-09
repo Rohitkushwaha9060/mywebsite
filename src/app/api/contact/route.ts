@@ -1,4 +1,4 @@
-import { dbConnect } from "@/lib";
+import { dbConnect, sendEmail } from "@/lib";
 import { Contact } from "@/model";
 
 export async function POST(req: Request) {
@@ -19,6 +19,17 @@ export async function POST(req: Request) {
       message: message,
     });
     await contact.save();
+
+    await sendEmail({
+      toEmail: email,
+      subject: "Join our newsletter",
+      emailBody: `
+      <p>
+        Thanks for subscribing to our newsletter! We will be in touch soon.
+      </p>
+        `,
+    });
+
     return Response.json(
       { success: true, message: "Contact added" },
       { status: 201 }
