@@ -1,14 +1,24 @@
-import React from "react";
+import Image from "next/image";
 
 function About() {
   return (
     <>
       <section className="w-full max-w-7xl mt-12 mx-auto font-roboto h-screen">
-        <h1 className="text-left font-roboto_slab font-semibold text-2xl md:text-3xl">
+        <h1 className="text-left font-roboto_slab font-semibold text-2xl md:text-3xl mx-5">
           About Me
         </h1>
 
-        <article className="mt-10 text-left">
+        <div className="text-center max-w-[300px] mx-auto mt-10 ">
+          <Image
+            src="/l.png"
+            alt="me"
+            className="rounded-xl"
+            width={300}
+            height={300}
+          />
+        </div>
+
+        <article className="mt-10 text-left mx-5">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia
           fugit, excepturi libero provident nihil magnam? Consequatur ut nulla
           porro molestiae beatae dolorem! In architecto, quos exercitationem
