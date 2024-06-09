@@ -47,7 +47,7 @@ export default function Home() {
             className="animate-bounce"
             src="/dev.svg"
             alt="profile"
-            width={800}
+            width={700}
             height={600}
           />
         </div>
