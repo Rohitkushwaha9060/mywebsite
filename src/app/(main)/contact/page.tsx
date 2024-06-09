@@ -42,7 +42,7 @@ export default function Home() {
 
   return (
     <>
-      <section className="w-full max-w-7xl mt-12 mx-auto font-roboto">
+      <section className="w-full max-w-7xl mt-12 mx-auto font-roboto h-screen">
         <div className="max-w-2xl mx-auto mt-3">
           <form
             className="space-y-6 shadow-md rounded-lg bg-gray-900 p-6 mx-4"

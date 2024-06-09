@@ -6,6 +6,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  font-family: "Roboto", sans-serif;
+}
+
 @keyframes spin {
   0%,
   100% {
